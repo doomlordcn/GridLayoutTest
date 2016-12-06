@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
             GridLayout.LayoutParams params=new GridLayout.LayoutParams(rowSpec,columnSpec);
             params.setGravity(Gravity.FILL);
             layout.addView(btn,params);
+
         }
     }
 }
