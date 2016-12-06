@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bigeshow.gridlayouttest.MainActivity"
+    android:columnCount="4"
+    android:rowCount="6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:textSize="50sp"
+        android:layout_marginLeft="2pt"
+        android:layout_marginRight="2pt"
+        android:padding="3pt"
+        android:gravity="right"
+        android:background="#eee"
+        android:textColor="#000"
+        android:text="0" />
+
+    <Button
+        android:text="清除"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:id="@+id/button" />
+</GridLayout>
